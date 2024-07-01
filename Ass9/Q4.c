@@ -7,6 +7,7 @@ int main() {
     j=1;
     k=2;
     ptr = &k;
+    *ptr = 7;
     printf("\n");
     printf("J has value %d and is stored at %p\n", j, &j);
     printf("K has value %d and is stored at %p\n", k, &k);
