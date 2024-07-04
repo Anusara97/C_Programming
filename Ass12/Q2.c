@@ -17,11 +17,11 @@ int main() {
         printf("\tBook No %d:\n", i+1);
         printf("Book Title: ");
         fgets(Books[i].title, sizeof(Books[i].title), stdin);
-        Books[i].title[strcspn(Books[i].title, "\n")] = "\0";
+        Books[i].title[strcspn(Books[i].title, "\n")] = '\0';
 
         printf("Author: ");
         fgets(Books[i].author, sizeof(Books[i].author), stdin);
-        Books[i].author[strcspn(Books[i].author, "\n")] = "\0";
+        Books[i].author[strcspn(Books[i].author, "\n")] = '\0';
 
         printf("No of Pages: ");
         scanf("%d", &Books[i].pages);
