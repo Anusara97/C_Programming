@@ -40,7 +40,3 @@ void displayList(std s[]) {
         printf("\n");
     }
 }
-
-
-
-
